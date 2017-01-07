@@ -1,0 +1,100 @@
+body {
+  background-color: gray;
+  width:600px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+
+
+}
+
+.textbox {
+  justify-content: center;
+  width: 450px;
+  height: 200px;
+  background-color: white;
+  padding:25px;
+  font-family: sans-serif;
+  flex:center;
+  margin-left: 50px;
+
+}
+.redbox {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  flex:left;
+
+  border-color: gray;
+  border-style:solid;
+  border:1;
+  border-radius:1px;
+  text-align:center;
+  color:white;
+  font-family:sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.bluebox {
+  background-color: blue;
+  height: 50px;
+  width: 100px;
+  flex: left;
+  margin-left:20px;
+  border-color:gray;
+  border-style: solid;
+  border:1;
+  border-radius: 1px;
+  text-align: center;
+  font-family:sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  color:white;
+
+}
+.clickcontainer {
+  display:flex;
+
+}
+.graybox {
+  background-color: grey;
+  width: 450px;
+  height: 300px;
+  color: white;
+  border-radius: 1px;
+  font-size: 24px;
+  font-family: sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.textbox2 {
+  width: 450px;
+  height: 450px;
+  background-color: white;
+  padding:25px;
+  margin-top:25px;
+  font-family: sans-serif;
+  flex:center;
+  margin-left:50px;
+}
+
+footer {
+  margin-top: 25px;
+  background-color: black;
+  height:75px;
+  width:575px;
+  color: white;
+  font-family: monospace;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 25px;
+
+}

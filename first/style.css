@@ -1,0 +1,89 @@
+
+.textbox {
+  padding:20;
+}
+
+.redBox {
+  background-color: red;
+  height: 150px;
+  width: 175px;
+  flex:left;
+
+  padding-right:15px;
+}
+
+.redBox2 {
+  background-color: red;
+  height: auto;
+  width: 150px;
+  flex:left;
+  flex-grow:1;
+}
+
+.blueBox2 {
+  background-color: blue;
+  height: 300px;
+  width: 150px;
+  flex:left;
+  flex-grow:4;
+
+}
+
+.blueBox {
+  background-color: blue;
+  height: 150px;
+  width: 175px;
+  flex:middle;
+
+  padding-right:15px;
+}
+
+.grayBox {
+    background-color: gray;
+    height: 150px;
+    width: 175px;
+    flex:right;
+
+
+
+  }
+  .container {
+    display: flex;
+    height: auto;
+    width: 600px;
+  }
+header {
+  width: 600px;
+  height: 175px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body {
+  width: 600px;
+  height: 400px;
+}
+
+.blueBox3 {
+  background-color: blue;
+  height: 150px;
+  flex:left;
+  flex-grow:8;
+}
+.redBox3 {
+  background-color: red;
+  height: 150px;
+  flex:left;
+  flex-grow:1;
+}
+
+.grayBox3 {
+  background-color: gray;
+  height: 150px;
+  flex-grow:3
+}
+.overall {
+  margin: 30;
+  height: auto;
+  width: auto;
+}
